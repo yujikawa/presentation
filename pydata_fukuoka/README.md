@@ -9,3 +9,9 @@ jupyter labextension install @jupyter-voila/jupyterlab-preview # if you use jupy
 ```
 pip install "holoviews[recommended]"
 ```
+
+## install ipywidgets
+```
+pip install ipywidgets
+jupyter nbextension enable --py widgetsnbextension
+```
